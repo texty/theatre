@@ -10,6 +10,27 @@ body {
   /*footer height plus padding*/
   margin-bottom: 200px; }
 
+.header {
+   /* background-image: url("http://minionomaniya.ru/wp-content/uploads/2016/01/%D0%9A%D0%B5%D0%B2%D0%B8%D0%BD.jpg");*/
+    background-image: url("../img/DSCF5780.jpg");
+    /*background-color: #FAA61A;*/
+    background-position: center;
+    margin-top: -5%;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+#header-text {
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    margin-left: 220px;
+    top: 10%;
+    width: 90%;
+    /*background-color: rgba(255, 255, 255, 0.6);*/
+}
+
 a {
   color: inherit;
   text-decoration: none; }
@@ -23,19 +44,27 @@ a {
     border-bottom: 2px dotted #cccccc; }
 
 h1 {
+  color: white;
   font-size: 3.5em;
   line-height: 1.8em;
-  font-weight: bold; }
+  font-weight: bold;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
 
 h2 {
-  font-size: 2em;
-  line-height: 2em;
-  font-weight: bold; }
+    font-size: 2em;
+    line-height: 2em;
+    font-weight: bold;
+
+}
 
 h3 {
+  color: white;
   font-size: 1.8em;
-  line-height: 2.2em;
-  font-weight: normal; }
+  line-height: 1.8em;
+  text-shadow: black 0.1em 0.1em 0.4em;
+}
+
 
 p, li {
   font-size: 1.6em;
@@ -120,11 +149,12 @@ p, li {
 .cover {
   margin-bottom: 15%; }
 
-h1 {
-  text-align: center; }
+h1
   @media (max-width: 480px) {
     h1 {
       font-size: 2.5em; } }
+
+
 
 .subtitle {
   font-size: 1.7em;
@@ -133,7 +163,8 @@ h1 {
   color: #383e47; }
 
 .credits {
-  color: #383e47;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
   font-size: 0.8em;
   line-height: 1.5em; }
   .credits span {
@@ -141,7 +172,9 @@ h1 {
   .credits.date {
     margin-top: 1em;
     font-size: 1.1em;
-    font-weight: 300; }
+    font-weight: 300;
+
+  }
 
 .annotation {
   font-size: 12px;
