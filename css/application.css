@@ -74,6 +74,7 @@ h2 {
     font-size: 2em;
     line-height: 2em;
     font-weight: bold;
+    margin-left: 15%;
 
 }
 
@@ -85,6 +86,7 @@ h3 {
 }
 
 h5{
+    margin-top: 2em;
     line-height: 1.5em;
 }
 
