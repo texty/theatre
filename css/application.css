@@ -283,4 +283,14 @@ img {
 .read-more {
   margin-bottom: 15px; }
 
+.glyphicon-chevron-right:before {
+    content: "▶";
+}
+
+.glyphicon-chevron-left:before {
+    content: "◀";
+}
+
 /*# sourceMappingURL=application.css.map */
+
+
