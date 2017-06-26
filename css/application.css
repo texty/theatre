@@ -33,7 +33,7 @@ body {
     position: relative;
     /*text-align: left;*/
     margin-left: 50%;
-    margin-right: 2%;
+    margin-right: 10%;
     top: 10%;
     /*width: 100%;*/
     /*background-color: rgba(255, 255, 255, 0.6);*/
@@ -213,21 +213,13 @@ h1
   margin-bottom: 2.5em;
   color: #636363; }
 
-p.first, li.first {
-  margin-top: 3.5em; }
-  p.first::first-letter, li.first::first-letter {
-    float: left;
-    margin: 0 20px 0 0;
-    font-size: 52px;
-    font-weight: bold;
-    padding: 10px;
-    line-height: 1; }
-p span, li span {
-  background: rgba(123, 152, 173, 0.3);
-  padding: 1px; }
-p span.itallic, li span.itallic {
-  background: none;
-  font-style: italic; }
+.first {
+  margin-top: 30px;
+}
+
+.last{
+  margin-bottom:30px;
+}
 
 ul {
   list-style-type: none;
