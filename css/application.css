@@ -12,7 +12,6 @@ body {
 
 .header {
     background-image: url("../img/DSCF5780.jpg");
-    background-position: center;
     margin-top: 0;
     background-size: cover;
     height: 700px;
@@ -66,11 +65,15 @@ h3 {
   text-shadow: black 0.1em 0.1em 0.4em;
 }
 
+h5{
+    line-height: 1.5em;
+}
 
 p, li {
   font-size: 1.6em;
   line-height: 1.7em;
   width:50%;
+
 
 }
 
@@ -79,7 +82,7 @@ p, li {
   background-color: rgba(255, 255, 255, 0.9);
   position: fixed;
   float: left;
-  margin: 15px 0px 0px 15px;
+  margin: 15px 0 0 15px;
   z-index: 1000; }
 
 .social-icons {
@@ -93,7 +96,7 @@ p, li {
   padding: 5px;
   color: #5b5b5b;
   float: right;
-  margin: 5px 10px 0px 0px;
+  margin: 5px 10px 0 0;
   cursor: pointer; }
   .fa-twitter:hover,
   .fa-facebook:hover {
@@ -114,7 +117,7 @@ p, li {
 #footer-wraper {
   padding-top: 20px;
   margin-left: 5%;
-  margin-left: 5%; }
+}
 
 .links li {
   color: #fff;
@@ -131,7 +134,7 @@ p, li {
     .copyright {
       font-size: 0.5em; } }
   .copyright p {
-    padding-bottom: 0px; }
+    padding-bottom: 0; }
 
 .copying-info {
   padding-top: 20px;
@@ -170,14 +173,15 @@ h1
   color: white;
   text-shadow: black 0.1em 0.1em 0.2em;
   font-size: 0.8em;
-  line-height: 1.5em; }
+  line-height: 1.5em;
+
+}
   .credits span {
     font-weight: bold; }
   .credits.date {
     margin-top: 1em;
     font-size: 1.1em;
     font-weight: 300;
-
   }
 
 .annotation {
@@ -205,35 +209,32 @@ p span.itallic, li span.itallic {
 
 ul {
   list-style-type: none;
-  padding: 0px; }
-
-td, th {
-  font-size: 12px; }
+  padding: 0; }
 
 img {
-  margin-top: 0em;
-  margin-bottom: 3em; }
+  margin-top: 0;
+  margin-bottom: 0.5em; }
 
 .quote {
-  margin-top: 0em;
+  margin-top: 0;
   margin-bottom: 2em;
   font-size: 2.3em;
   font-family: 'Open Sans Condensed', sans-serif;
   color: #211A23; }
   @media (max-width: 768px) {
     .quote {
-      margin-top: 0px;
+      margin-top: 0;
       margin-bottom: 2em; } }
   @media (max-width: 480px) {
     .quote {
-      margin-top: 0px;
+      margin-top: 0;
       margin-bottom: 2em; } }
   .quote::before {
-    font-family: Arial;
+    font-family: Arial, serif;
     content: "\201C";
     font-size: 7em;
     position: relative;
-    left: 0em;
+    left: 0;
     top: 0.5em; }
     @media (max-width: 480px) {
       .quote::before {
