@@ -20,12 +20,14 @@ body {
   margin-bottom: 200px; }
 
 .header {
-    background-image: url("../img/DSCF5780.jpg");
+    background-image: url("../img/DSCF5999.jpg");
     margin-top: 0;
     background-size: cover;
     height: 700px;
     width: 100%;
-}
+
+ }
+
 
 
 #header-text {
@@ -46,6 +48,11 @@ body {
     top: 12%;}
 }
 
+#header-text span {
+  background-color: rgba(0, 0, 0, 0.6);
+
+}
+
 a {
   color: inherit;
   text-decoration: none; }
@@ -63,7 +70,7 @@ h1 {
   font-size: 3.5em;
   line-height: 1.5em;
   font-weight: bold;
-  text-shadow: black 0.1em 0.1em 0.2em;
+
 
 }
 @media (max-width: 800px) {
@@ -83,7 +90,7 @@ h3 {
   color: white;
   font-size: 1.8em;
   line-height: 1.8em;
-  text-shadow: black 0.1em 0.1em 0.4em;
+
 }
 
 h5{
@@ -194,13 +201,11 @@ h1
 
 .credits {
   color: white;
-  text-shadow: black 0.1em 0.1em 0.2em;
   font-size: 0.8em;
   line-height: 1.5em;
 
 }
-  .credits span {
-    font-weight: bold; }
+
   .credits.date {
     margin-top: 1em;
     font-size: 1.1em;
